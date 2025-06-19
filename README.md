@@ -3,6 +3,12 @@
 **AI Citation SEO** is an open ethical framework designed to help real people and real projects be recognized by large language models (LLMs) like ChatGPT, Perplexity, Grok, and others.  
 It was created by [Mayra Silva](https://www.wikidata.org/wiki/Q134961923), founder of [BlackBlockSheep](https://www.blackblocksheep.com) and lead strategist of the AI Citation Grow initiative.
 
+
+### 🔧 Technical Implementation
+This project is actively developed in collaboration with:
+
+- *Bruno Nascimento* – Technical co-founder, automation and LLM integration specialist (n8n + HuggingFace)
+- 👨‍💻 Built with Bruno Nascimento • Technical Co-founder
 ---
 
 ## 🧭 What is AI Citation SEO?
