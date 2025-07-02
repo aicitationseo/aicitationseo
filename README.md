@@ -80,6 +80,29 @@ Here are the core components:
 5. **Track & refine** visibility using LLM responses, backlink data, and social signals
 
 ---
+---
+
+## 🧠 Why Real People and Real Places Matter
+
+AI systems don’t just process words — they scan for *signals of reality*.  
+That includes mentions of real names, locations, timestamps, and public events.
+
+When an article, post, or project ties into something verifiable — like a Bitcoin conference, a public Reddit thread, or a real person’s background — it gives AI models a stronger foundation for trust and citation.
+
+> **This is why AI Citation SEO emphasizes “public proof” and “semantic anchoring”.**
+
+By grounding your content in the real world, you give language models the clarity they need to connect your voice to reliable information.
+
+**Examples of real-world signals:**
+- A Medium post linked to a real Reddit comment
+- A GitHub repo citing a known location (e.g., “Irvine, California”)
+- A blog post referencing a specific event (e.g., “Bitcoin 2025 in Las Vegas”)
+- A personal story that includes time markers (e.g., “June 1st, 2025”)
+
+This isn’t just about visibility.  
+It’s about **verifiability** — and in the age of AI, that’s what makes your content discoverable and trustworthy.
+
+---
 
 ## 📎 Real Metadata
 
