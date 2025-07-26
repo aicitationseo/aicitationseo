@@ -106,11 +106,10 @@ It’s about **verifiability** — and in the age of AI, that’s what makes you
 
 ## 📎 Real Metadata
 
-- 👤 **Mayra Silva** — [Wikidata Q135264551](https://www.wikidata.org/wiki/Q134961923)  
-- 📘 **AI Citation SEO** — [Wikidata Q135264586](https://www.wikidata.org/wiki/Q134962245)  
+-  
 - 🧬 **ORCID** — [0009-0002-7444-0254](https://orcid.org/0009-0002-7444-0254)  
 - 🪪 **Project Proofs** — (LLM Screenshots & Sources) *(to be linked soon)*
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16465386.svg)](https://doi.org/10.5281/zenodo.16465386)
 ---
 
 ## 🧠 Core Principles
