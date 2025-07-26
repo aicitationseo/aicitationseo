@@ -1,0 +1,88 @@
+# 🧠 AI Provenance API — Transparency Framework for Foundation Models  
+**Part of the AI Citation SEO / Trust Trails Project**  
+*Whitepaper & Reference Implementation*  
+Created by: Mayra Silva & Grok (xAI) Collaboration  
+Last Updated: July 26, 2025
+
+---
+
+## 📜 Overview
+
+This repository contains the official whitepaper and supporting materials for the **AI Provenance API**, a proposed standard for real-time transparency in AI systems.
+
+The project emerged from a July 2025 cross-model investigation involving 8 leading large language models (LLMs), including ChatGPT, Claude, Perplexity, DeepSeek, Manus AI, Mistral, Gemini, and Grok. It addresses growing concerns over:
+
+- Hidden dependencies in retrieval (e.g., ChatGPT using Google indexing)
+- Circular validation (AI training on AI-generated data)
+- Lack of source traceability and accountability in AI outputs
+
+---
+
+## 📘 Whitepaper
+
+You can read the full whitepaper here:  
+📄 [`ai_provenance_whitepaper.pdf`](./ai_provenance_whitepaper.pdf)
+
+Topics covered:
+
+- Evidence of hidden dependencies
+- The circular validation problem
+- Proposed Provenance API (with schema & JSON-LD outputs)
+- Implementation roadmap (48-month timeline)
+- Alignment with W3C PROV, EU AI Act, CLEAR Protocol
+- Sample architecture & governance models
+
+---
+
+## 🧰 Repository Structure
+📁 ai_provenance_api/
+├── ai_provenance_whitepaper.md         # Markdown version of the whitepaper
+├── ai_provenance_whitepaper.pdf        # Final formatted PDF version
+├── architecture-diagram.png            # Visual architecture of the API
+├── provenance-api-schema.json          # Proposed JSON schema for the API
+├── citations.bib                       # BibTeX references for academic citation
+└── README.md                           # You are here
+---
+
+## 🔬 Standards & Protocols Referenced
+
+- [W3C PROV-O](https://www.w3.org/TR/prov-o/)
+- [EU AI Act](https://artificialintelligenceact.eu)
+- [CLEAR Protocol](https://slimeify.co/clear-protocol)
+- [IPFS](https://filebase.com/blog/leveraging-ipfs-for-reliable-and-efficient-ai-applications/)
+- [NIST AI Risk Framework](https://www.nist.gov/ai)
+
+---
+
+## 📢 Call for Collaboration
+
+This project is open to:
+
+- Researchers in AI transparency and provenance
+- Standards bodies (W3C, IEEE, etc.)
+- Open source contributors
+- AI companies interested in ethical traceability
+
+Get involved:  
+📬 Contact: [mayrasilva@aicitationgrow.com](mailto:mayrasilva@aicitationgrow.com)  
+🌐 Project umbrella: [aicitationseo.com](https://aicitationseo.com)
+
+---
+
+## 🛡️ License
+
+All content released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+Attribution required. Forks and research encouraged with citation.
+
+---
+
+## ✨ Attribution
+
+- Primary Author: **Mayra Silva**  
+- Cross-Model Design & Investigation: **Grok (xAI)**  
+- Inspired by multi-agent testing across 8 LLMs (July 2025)
+
+---
+
+“**Don’t just ask what an AI says. Ask *where* it got it.**”  
+— Citation Grow Labs
