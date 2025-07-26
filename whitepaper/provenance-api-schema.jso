@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Provenance API Response Schema",
+  "type": "object",
+  "properties": {
+    "query_id": {
+      "type": "string",
+      "description": "Unique identifier for the query"
+    },
+    "source_apis": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "provider": {
+            "type": "string"
+          },
+          "retrieval_method": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "fallback_used": {
+            "type": "boolean"
+          },
+          "timestamps": {
+            "type": "object",
+            "properties": {
+              "query_sent": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "response_received": {
+                "type": "string",
+                "format": "date-time"
+              }
+            },
+            "required": [
+              "query_sent",
+              "response_received"
+            ]
+          }
+        },
+        "required": [
+          "provider",
+          "retrieval_method",
+          "confidence",
+          "fallback_used",
+          "timestamps"
+        ]
+      }
+    },
+    "citation_candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "relevance_score": {
+            "type": "number"
+          },
+          "extracted_snippet": {
+            "type": "string"
+          },
+          "index_source": {
+            "type": "string"
+          },
+          "trust_signals": {
+            "type": "object",
+            "properties": {
+              "cross_verified": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "fact_checkers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "url",
+          "relevance_score",
+          "extracted_snippet",
+          "index_source"
+        ]
+      }
+    },
+    "warnings": {
+      "type": "object",
+      "properties": {
+        "single_source_risk": {
+          "type": "boolean"
+        },
+        "potential_circularity": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "single_source_risk",
+        "potential_circularity"
+      ]
+    }
+  },
+  "required": [
+    "query_id",
+    "source_apis",
+    "citation_candidates",
+    "warnings"
+  ]
+}
